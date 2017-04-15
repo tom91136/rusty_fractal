@@ -1,0 +1,17 @@
+[package]
+name = "rusty_fractal"
+version = "0.1.0"
+authors = ["Tom Lin <tom91136@gmail.com>"]
+
+[dependencies]
+num = "0.1"
+image = "*"
+time = "*"
+rayon = "0.7.0"
+arrayvec = "0.3.22"
+
+[profile.dev]
+debug = true
+
+[profile.release]
+debug-assertions = true
